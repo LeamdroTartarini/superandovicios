@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Bloqueia arquivos sensíveis (caso existam)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cgi-bin/
+
+# Indica o sitemap principal do site
 Sitemap: https://superandovicios.com/sitemap.xml
