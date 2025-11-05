@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página principal -->
   <url>
     <loc>https://superandovicios.com/</loc>
     <lastmod>2025-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Página de vendas -->
+  <url>
+    <loc>https://superandovicios.com/index.html</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Imagens principais (opcional, ajuda na busca por imagens) -->
+  <url>
+    <loc>https://superandovicios.com/imagens/capaebook.png</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://superandovicios.com/imagens/ebook1.jpg</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://superandovicios.com/imagens/ebook2.jpg</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://superandovicios.com/imagens/ebook3.jpg</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://superandovicios.com/imagens/ebook4.jpg</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
+
