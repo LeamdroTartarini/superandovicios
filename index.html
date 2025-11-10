@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "image": "https://superandovicios.com/imagens/capaebook.png",
   "description": "Um guia prático e direto para eliminar vícios e procrastinação com 10 estratégias infalíveis.",
   "brand": {
-    "@type": "Person",
+    "@type": "Organization",
     "name": "Fernando Santi"
   },
   "offers": {
@@ -52,7 +52,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "priceCurrency": "BRL",
     "price": "29.90",
     "availability": "https://schema.org/InStock",
-    "priceValidUntil": "2025-12-31"
+    "priceValidUntil": "2025-12-31",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "BRL"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0
+        }
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "BR"
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/NonReturnable"
+    }
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -61,7 +90,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   },
   "review": {
     "@type": "Review",
-    "author": "Leitor verificado",
+    "author": {
+      "@type": "Person",
+      "name": "Leitor verificado"
+    },
     "datePublished": "2025-05-10",
     "reviewBody": "Conteúdo muito bom e direto ao ponto! Recomendo para quem quer mudar hábitos e ter mais disciplina.",
     "name": "Excelente guia para vencer vícios",
